@@ -1,0 +1,80 @@
+.introduce{
+    /*border: 1px solid darkolivegreen;*/
+    width: 100%;
+}
+
+.intro {
+    /*border: 1px solid rebeccapurple;*/
+    background-image: url('icon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    width: auto;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.intro h1, .intro h3{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.intro h1{
+    font-size: 40px;
+}
+
+.intro h3{
+    font-size: 30px;
+    bottom: 50px;
+}
+
+@media screen and (max-width: 1000px){
+    .introduce{
+        /*border: 1px solid red;*/
+        width: 100%;
+        /*padding-top: 100px;*/
+        height: 70vh;
+    }
+
+    .intro {
+        border: 1px solid rebeccapurple;
+        background-image: url('icon.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+
+        width: auto;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        /*top: 120px;*/
+    }
+
+    .intro h1, .intro h3{
+        color: white;
+        position: relative;
+        bottom:70px;
+        text-align: center;
+    }
+
+    .intro h1{
+        font-size: 50px;
+    }
+
+    .intro h3{
+        bottom: 150px;
+        font-size: 40px
+    }
+
+}
+

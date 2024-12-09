@@ -1,0 +1,40 @@
+.introduce{
+    /*border: 1px solid darkolivegreen;*/
+    width: 100%;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.intro {
+    /*border: 1px solid rebeccapurple;*/
+    background-image: url('icon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    /*top: 120px;*/
+}
+
+.intro h1, .intro h3{
+    color: white;
+    position: relative;
+    bottom:110px;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 80px
+}
+
+.intro h3{
+    bottom: 220px;
+    font-size: 50px
+}
