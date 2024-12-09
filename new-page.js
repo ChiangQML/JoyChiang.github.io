@@ -3,8 +3,8 @@ document.querySelector('.small-menu').addEventListener('click', function() {
     if (menuContainer.style.opacity === '1') {
         menuContainer.style.opacity = '0';
     } else {
-        menuContainer.style.visibility = 'visible'; // 先设为可见
-        menuContainer.style.opacity = '1'; // 然后渐入显示
+        menuContainer.style.visibility = 'visible'; 
+        menuContainer.style.opacity = '1'; 
     }
 });
 
