@@ -11,7 +11,7 @@ const descriptions = [
 const data = {
     videos: videos,
     descriptions: descriptions,
-    index: 0, // Start with the first video
+    index: 0, 
     arrButtons: [],
 };
 
@@ -51,7 +51,7 @@ const updateSelectedButton = function () {
 };
 
 const createCarousel = function () {
-    // Set initial video and description
+
     updateCarousel();
 
     objs.navPrev.addEventListener('click', cbPagePrev);
