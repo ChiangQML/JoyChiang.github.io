@@ -57,10 +57,16 @@ header a, header ion-icon{
 
 }
 
-.dropdown{
-    width: 100%;
-    border: none;
-    background-color: #d1e8e8;
+.dropdown {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color:#d1e8e8; 
+    border: none; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    width: 90%;
 }
 
 .small-menu-container {
