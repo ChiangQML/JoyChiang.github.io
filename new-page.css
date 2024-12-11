@@ -57,6 +57,12 @@ header a, header ion-icon{
 
 }
 
+.dropdown{
+    width: 100%;
+    border: none;
+    background-color: #d1e8e8;
+}
+
 .small-menu-container {
     opacity: 0; 
     visibility: hidden; 
