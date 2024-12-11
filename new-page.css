@@ -426,7 +426,7 @@ header a, header ion-icon{
 
 #works .videos .video-container .video-description {
     text-align: center;
-    font-size: 50px;
+    font-size: 17px;
     color: #333;
     line-height: 1.5;
     margin-top: 10px;
@@ -458,8 +458,8 @@ header a, header ion-icon{
 }
 
 .btnNav:active {
-    transform: scale(0.95); 
-    background-color: rgba(81, 81, 81, 0.8);
+    transform: scale(0.95);
+    background-color: rgba(81, 81, 81, 0.8); 
 }
 
 .btnBar {
@@ -489,6 +489,13 @@ header a, header ion-icon{
     color: #fff;
 }
 
+@media screen and (min-width: 1028px) {
+    .btnBar{
+        visibility: hidden;
+    }
+
+}
+
 @media screen and (max-width: 1028px) {
     #works .videos {
         flex-direction: column;
@@ -514,11 +521,12 @@ header a, header ion-icon{
     }
 
     .btnNav {
-        font-size: 20px;
-        padding: 8px 16px;
+        /*font-size: 20px;*/
+        /*padding: 8px 16px;*/
+        position: absolute;
+        visibility: hidden;
     }
 }
-
 
 
 
