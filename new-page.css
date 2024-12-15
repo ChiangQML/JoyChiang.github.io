@@ -57,18 +57,6 @@ header a, header ion-icon{
 
 }
 
-.dropdown {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    background-color:#d1e8e8; 
-    border: none; 
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s; 
-    width: 90%;
-}
-
 .small-menu-container {
     opacity: 0; 
     visibility: hidden; 
@@ -87,6 +75,19 @@ header a, header ion-icon{
     padding: 0;
     margin: 0;
 }
+
+.dropdown {
+    display: inline-block;
+    text-decoration: none;
+    color: black; 
+    background-color:#d1e8e8; 
+    border: none; 
+    text-align: center;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    width: 90%;
+}
+
 
 @media screen and (max-width: 700px){
     .small-menu{
@@ -320,11 +321,11 @@ header a, header ion-icon{
         text-align: center;
     }
 
-    .project-content{
-        /*text-align: center !important;*/
+    .project-content {
+        /*text-align: left;*/
         float: none !important;
         width: 100% !important;
-        padding-right:0 !important;
+        padding-right: 0 !important;
     }
 
     .project-content>h4{
@@ -332,9 +333,10 @@ header a, header ion-icon{
     }
 
     .intern>div{
-        text-align: center;
+        text-align: left;
         /*border: 1px solid blue;*/
-        width: 100% !important;
+        width: 140% !important;
+        margin-left: -30px;
         float: none !important;
         padding-right:0 !important;
     }
@@ -415,7 +417,7 @@ header a, header ion-icon{
 }
 
 #video-carousel {
-    width: 80%;
+    width: 90%;
     height: auto;
     align-content: center;
     display: flex;
@@ -441,7 +443,7 @@ header a, header ion-icon{
     font-size: 17px;
     color: #333;
     line-height: 1.5;
-    margin-top: 10px;
+    font-family: Arial, sans-serif;
 }
 
 .nav {
@@ -462,6 +464,7 @@ header a, header ion-icon{
     border-radius: 5px;
     transition: all linear 0.3s;
     cursor: pointer;
+    margin: 0 50px;
 }
 
 .btnNav:hover {
@@ -471,7 +474,7 @@ header a, header ion-icon{
 
 .btnNav:active {
     transform: scale(0.95); 
-    background-color: rgba(81, 81, 81, 0.8);
+    background-color: rgba(81, 81, 81, 0.8); 
 }
 
 .btnBar {
@@ -502,13 +505,6 @@ header a, header ion-icon{
     color: #fff;
 }
 
-@media screen and (min-width: 1028px) {
-    .btnBar{
-        visibility: hidden;
-    }
-
-}
-
 @media screen and (max-width: 1028px) {
     #works .videos {
         flex-direction: column;
@@ -524,7 +520,9 @@ header a, header ion-icon{
     #works .videos .video-container .video-description {
         width: 100%;
         margin: 0;
-        font-size: 12px;
+        font-size: 17px;
+        font-family: Arial, sans-serif;
+        text-align: left;
     }
 
     .nav {
@@ -622,7 +620,7 @@ header a, header ion-icon{
         justify-content: center;
         padding: 5% 0;
         gap: 4%;
-        flex-direction: column; 
+        flex-direction: column;
         background-color: white;
     }
 
@@ -639,18 +637,18 @@ header a, header ion-icon{
         border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 20px; 
         gap: 20px; 
-        justify-content: center;
+        justify-content: center; 
     }
 
     .skill-container {
-        width: 100%; 
+        width: 100%;
         display: flex;
         align-items: center;
         gap: 15px;
         flex-direction: column;
-        text-align: center; 
+        text-align: center;
     }
 
     .skill-container h2 {
@@ -660,20 +658,20 @@ header a, header ion-icon{
     }
 
     .skill-item {
-        width: 100%; 
+        width: 100%; /* Ensure the skill item spans full width */
     }
 
     .skill-item p {
         margin: 0;
         padding: 5px 0;
-        font-size: 18px;
+        font-size: 18px; 
         color: #3c6767;
         text-align: center;
     }
 
     .skill-bar {
         width: 100%;
-        height: 8px; 
+        height: 8px;
         background-color: #ccc;
         position: relative;
         border-radius: 5px;
@@ -682,7 +680,7 @@ header a, header ion-icon{
 
     .skill-progress {
         height: 100%;
-        background-color: #3c6767; 
+        background-color: #3c6767;
         border-radius: 5px; 
     }
 }
