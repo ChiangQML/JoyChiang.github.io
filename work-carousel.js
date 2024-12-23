@@ -1,15 +1,14 @@
-
-
 const videos = [
     'https://www.youtube.com/embed/beehz_ZGQ_o?si=ZUxMEG0clTt_F2i6',
+    'https://www.youtube.com/embed/n5-V7dkekD4?si=2m2c9JFzP4cE1Dyk',
     'https://www.youtube.com/embed/fVh1VMB8PnE?si=hpQYkGd7PAQZ93u2',
 ];
 
 const descriptions = [
     'Fall 2023 - Spring 2024 \n Empowering data-driven decision-making of Catholic Schools. Collaborated within a dynamic 4-person team in a research-driven, Agile environment, contributing to Full Stack Development and CyberSecurity projects using React, Node.js, and AWS.\nDelivered a user-friendly input form and intuitive operations dashboard, streamlining data management for a Catholic school system with 72 sub-schools.',
+    'Webcam API. Web-based application I independently developed using Node.js and React. It allows users to capture photos and record videos directly through their webcam, with media files automatically saved to their local storage. This project demonstrates my ability to design and implement interactive features, integrate front-end and back-end technologies, and deliver user-friendly functionality.',
     'Synchronize Reminders to Calendar. Using JavaScript and Shortcuts to help you synchronize the reminders to Calendar. It helps you to record the time you spend on a specific task and save it in the calendar.',
 ];
-
 const data = {
     videos: videos,
     descriptions: descriptions,
